@@ -1,5 +1,5 @@
 import java.util.*;
-public class demo {
+public class square_pattern {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
@@ -10,6 +10,7 @@ public class demo {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
 
